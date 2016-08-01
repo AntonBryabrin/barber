@@ -34,7 +34,7 @@
   </header>
   <main>
     <h1>средства для ухода</h1>
-    <ul>
+    <ul class="breadcrumbs">
       <li>
         <a href="#">главная</a>
       </li>
@@ -48,8 +48,9 @@
     <div class="container">
       <aside class="filter">
         <form>
-          <b class="vendors-title">производители:</b>
-          <ul class="vendors">
+          <fieldset class="vendors">
+          <legend class="vendors-title">производители:</legend>
+          <ul>
             <li><input id="baxter" name="baxter" type="checkbox" value="baxter" checked>
                 <label for="baxter">baxter of california</label></li>
             <li><input id="natty" name="natty" type="checkbox" value="natty">
@@ -63,16 +64,18 @@
             <li><input id="american-crew" name="american-crew" type="checkbox" value="american-crew" checked>
                 <label for="american-crew">american crew</label></li>
           </ul>
-          <b class="groups-title">группы товаров:</b>
-          <b class="groups-title">группы товаров:</b>
-          <ul class="products-groups">
+          </fieldset>
+          <fieldset class="products-groups">
+          <legend class="groups-title">группы товаров:</legend>
+          <ul>
              <li><input id="shaving-accessoires" name="radios" type="radio" value="shawing-accessoires" >
                  <label for="shaving-accessoires">бритвенные принадлежности</label></li>
              <li><input id="care-supplies" name="radios" type="radio" value="care-supplies" checked>
                  <label for="care-supplies">средства для ухода</label></li>
              <li><input id="accessoires" name="radios" type="radio" value="accessoires" >
                  <label for="accessoires">аксуссуары</label></li>        
-          </ul>  
+          </ul>
+          </fieldset>  
           <button type="submit" class="btn">показать</button>
         </form>  
       </aside>
@@ -84,7 +87,7 @@
           <a href="#">Набор для путешествий</a>
           <a href="#">«baxter of california»</a>
           <div class="item-sale">
-          <p class="price">2900</p>
+          <span class="price">2900</span>
           <a href="#" class="btn">Купить</a>
           </div>         
         </div>
@@ -95,7 +98,7 @@
           <a href="#">Увлажняющий кондиционер</a>
           <a href="#">«baxter of california»</a> 
           <div class="item-sale">
-          <p class="price">750</p>
+          <span class="price">750</span>
           <a href="#" class="btn">Купить</a>
           </div>           
         </div>
@@ -106,7 +109,7 @@
           <a href="#">Гель для волос</a>
           <a href="#">«suavecito»</a>
           <div class="item-sale">
-          <p class="price">290</p>
+          <span class="price">290</span>
           <a href="#" class="btn">Купить</a>
           </div>            
         </div>
@@ -117,7 +120,7 @@
           <a href="#">Глина для укладки</a>
           <a href="#">«american crew»</a> 
           <div class="item-sale">
-          <p class="price">500</p>
+          <span class="price">500</span>
           <a href="#" class="btn">Купить</a>
           </div>         
         </div> 
@@ -128,7 +131,7 @@
           <a href="#">Гель для волос</a>
           <a href="#">«american crew»</a> 
           <div class="item-sale">
-          <p class="price">300</p>
+          <span class="price">300</span>
           <a href="#" class="btn">Купить</a>
           </div>       
         </div> 
@@ -139,7 +142,7 @@
           <a href="#">Набор для бритья</a>
           <a href="#">«baxter of california»</a> 
           <div class="item-sale">
-          <p class="price">3900</p>
+          <span class="price">3900</span>
           <a href="#" class="btn">Купить</a>
           </div>          
         </div>   
