@@ -4,6 +4,7 @@
 	font-color:#000000;
 	font-weight:normal;
 	font-family: "PT Sans Narrow", sans-serif, Arial;
+	width:1200px;
 }
 
 h1 {
@@ -120,4 +121,51 @@ h2 {
 	float:right;
 	width:180px;
 }
+
+.item-title {
+	width:620px;
+	outline:1px solid black;
+	margin-bottom:25px;
+
+}
+
+.breadcrumbs {
+	outline:1px solid black;
+	width: 645px;
+	margin-bottom:60px;
+	padding-left:0;
+}
+
+.breadcrumbs li,
+.main-navigation li {
+	margin-right:20px;
+	display:inline-block;
+}
+
+
+.item-content{
+	outline:1px solid black;
+	margin-bottom:35px;
+	
+
+}
+
+.item-content-left{
+	outline:1px solid black;
+	width:460px;             /*подобрать ширину*/
+	float:left;
+}
+
+.item-content-right{ 
+	float:right;
+	width:400px;             /*подобрать ширину*/
+	outline:1px solid black;
+}
+
+
+
+
+
+
+
 
