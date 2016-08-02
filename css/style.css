@@ -142,30 +142,76 @@ h2 {
 	display:inline-block;
 }
 
+.strong {/*придумать другой класс*/
 
-.item-content{
-	outline:1px solid black;
+
+}
+
+
+.item-content {
+	
 	margin-bottom:35px;
 	
 
 }
 
-.item-content-left{
-	outline:1px solid black;
+.item-content-left {
+	
 	width:460px;             /*подобрать ширину*/
 	float:left;
 }
 
-.item-content-right{ 
+.item-content-right { 
 	float:right;
 	width:400px;             /*подобрать ширину*/
-	outline:1px solid black;
+	
+}
+
+.price-title {
+
+}
+
+.price-content {
+	width:940px;
+	outline:2px solid red;
+	margin-bottom:30px;
 }
 
 
 
+.price-content-left { /*подобрать ширину*/
+	width:440px;
+	float: left;
+	outline:1px solid black;
+
+}
+
+.price-content-right { /*подобрать ширину*/
+	width:440px; 
+	float: right;
+	outline:1px solid black;
+
+}
 
 
+.about-us {
+	width:940px;
+	outline:2px solid red;
 
+}
 
+.about-us-left { /*подобрать ширину*/
+	width:430px; 
+	float:left;
+	outline:1px solid black;
+	
+
+}
+
+.abous-us-right {
+	width:420px;
+	float:right;
+	outline:1px solid black;
+	
+}
 
