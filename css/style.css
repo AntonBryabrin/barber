@@ -215,3 +215,32 @@ h2 {
 	
 }
 
+.filter {
+	outline:1px solid black;
+	float:left;
+	width:250px;
+}
+
+.catalog {
+	outline:1px solid black;
+	float:right;
+	width:670px;
+	margin-bottom: 35px;
+}
+
+.catalog-item {
+	outline:1px solid black;
+	width:220px;
+	min-height:250px;
+	display:inline-block;
+	vertical-align: top;
+}
+
+.paginator {
+	margin-left:260px;
+	clear:both;
+}
+
+.paginator li {
+	display:inline-block;
+}
