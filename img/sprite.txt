@@ -1,0 +1,65 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-cross {
+    width: 12px;
+    height: 12px;
+    background-position: -15px -15px;
+}
+
+.sprite-f {
+    width: 12px;
+    height: 22px;
+    background-position: -15px -57px;
+}
+
+.sprite-f-white {
+    width: 12px;
+    height: 22px;
+    background-position: -15px -109px;
+}
+
+.sprite-icon-login {
+    width: 18px;
+    height: 16px;
+    background-position: -15px -161px;
+}
+
+.sprite-inst {
+    width: 21px;
+    height: 21px;
+    background-position: -15px -207px;
+}
+
+.sprite-inst-white {
+    width: 21px;
+    height: 21px;
+    background-position: -15px -258px;
+}
+
+.sprite-lock {
+    width: 15px;
+    height: 17px;
+    background-position: -15px -309px;
+}
+
+.sprite-user {
+    width: 15px;
+    height: 15px;
+    background-position: -15px -356px;
+}
+
+.sprite-v {
+    width: 25px;
+    height: 16px;
+    background-position: -15px -401px;
+}
+
+.sprite-v-white {
+    width: 25px;
+    height: 16px;
+    background-position: -15px -447px;
+}
