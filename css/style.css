@@ -42,7 +42,7 @@ h2 {
 	margin-bottom:60px;
 	background-color:#000000;
 	color:#ffffff;
-	outline:1px solid red;
+	
 }
 
 .container {
@@ -465,6 +465,7 @@ h2 {
 .inner-page {
 	background-image: url(../img/content-background.jpg);
 	background-color:#f8f5f2;
+	background-repeat:repeat;
 	color:#000000;
 	
 }
@@ -552,34 +553,117 @@ h2 {
 .price-content-left {
 	
 	float:left;
-	width:480px;
-	outline:1px solid black;
+	width:380px;
+	
+	margin-bottom:60px;
 }
 
 .price-content-right {
 	float:right;
 }
 
+
 .products h3 {
+
 	font-size:24px;
 	line-height:30px;
 	margin:0;
 	padding:0;
+	margin-bottom:25px;
+}
+
+.products ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+
+}
+
+.products li {
+	position:relative;
+	font-size:14px;
+	line-height:24px;
+	margin:0;
+	padding:0;
+	margin-left:20px;
+	margin-bottom:17px;
+}
+
+.products li:last-child{
+    margin-bottom:0;
+
 }
 
 
+.products li::before {
+	content:"";
+	position:absolute;
+	bottom:0;
+	left:-4.5%;
+	top:35%;
+	margin-left:-3px;
+	display:block;
+	width:6px;
+	height:6px;
+	background-color:#000000;
+	transform:rotate(45deg);
+}
+
+
+.price-table {
+  display:table;
+  border-collapse:collapse;
+  border:2px solid black;
+}
+
+.price-table h3 {
+	font-size:24px;
+	line-height:30px;
+	padding:0;
+	margin:0;
+	margin-bottom:40px;
+  display:table-caption;
+}
+
+.price-table ul {
+  display: table-row;
+}
+
+.price-table li {
+  width:195px;
+  padding:9px 17px;
+  display: table-cell;
+  border:2px solid black;
+  }
+.table-cost {
+  text-align:center;
+}
+	
+.about-us {
+	width:900px;
+}	
 
 
 
 
-.about-us p {
+
+.about-us .about-us-text {
   padding:0;
   margin:0;
   font-size:14px;
   line-height:24px;
 
-  column-width: 380px;
+  column-width: 250px;
   column-count: 2;
   column-gap: 50px;
   column-rule:none;
+  
+}
+
+.about-us h3 {
+	padding:0;
+	margin:0;
+	margin-bottom:30px;
+	font-size:24px;
+	line-height:30px;
 }
