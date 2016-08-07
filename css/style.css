@@ -485,7 +485,7 @@ h2 {
 	margin-bottom:60px;
 }
 
-.breadcrumbs li {
+.breadcrumbs__item {
 	position:relative;
 	font-size:14px;
 	line-height:24px;
@@ -494,14 +494,14 @@ h2 {
 }
 
 
-.breadcrumbs a {
+.breadcrumbs__link {
 	display:block;
 	padding-right:40px;
 	color:#000000;
 	text-decoration:none;
 }
 
-.breadcrumbs  li:not(:last-child):after {
+.breadcrumbs__item:not(:last-child):after {
 	content:"";
 	position:absolute;
 	bottom:0;
@@ -666,30 +666,42 @@ h2 {
 }
 
 
-
-.item-title {                                  /*ITEM.HTML*/
-    margin:0;
-	padding:0;
+.page-header__main-title {          /*ITEM.HTML*/
 	margin-top:-10px;
 	margin-bottom:15px;
-}     
+	outline:1px solid black;
+}
 
-.item-content-left {
+.main-title {                                
+    margin:0;
+	padding:0;
+	
+}  
+
+.content__left-block {
 	float:left;
+}
+
+
+.item-page__left-block {
 	outline:1px solid black;
 	width:460px;
-	padding:0;
-	margin:0;
+	
 }                                  
 
-.item-content-right {
+.content__right-block {
 	float:right;
-	outline:1px solid black;
-	width:390px;
+		
 }
-                             
+  
+.item-page__right-block {
 
-.picture-block-big {
+    width:390px; 
+
+}
+
+
+.picture-block__big {
 	outline:1px solid black;
 	padding: 0;
 	margin:0;
@@ -702,20 +714,49 @@ h2 {
 }
 
 
-.picture-block-preview{
+.picture-block__preview-pic {
 	font-size:0;
 }
 
-.content-photos-preview{
+.preview-pic__item {
 	margin-right:20px;
 }
 
-.content-photos-preview:nth-child(3n){
+.preview-pic__item:nth-child(3n){
 	margin-right:0;
 }
 
+.item-status {
+	
+	font-size:14px;
+	line-height:14px;
+	padding-top:25px;
+	margin-bottom:40px;
 
-.item-sale {                          /*Придумать универсальный класс*/
+}
+
+.item-status__vendor-code {
+	
+	
+	float:right;
+	color:#aeaeae;
+}
+	
+
+.right-block__discription {
+	margin:0;
+	padding:0;
+	margin-bottom:40px;
+}
+
+
+
+
+.right-block__sale {               /*Придумать специфический класс*/
+	margin-bottom: 60px;
+}
+
+.sale {                          
 	display:inline-block;
 	padding:0;
 	margin:0;
@@ -725,19 +766,16 @@ h2 {
 }
 
 
-.item-sale__cost{
+.sale__cost{
 	padding:0;
 	margin:14px 28px;
 	display:inline-block;
 	font-size:14px;
 	line-height:14px;
-
-
-
 }
 
 
-.item-sale__btn {
+.sale__buy-btn {
 	font-size:14px;
 	line-height:14px;
 	margin:0;
@@ -745,3 +783,55 @@ h2 {
 	vertical-align: middle;
 	padding:15px 18px;
 }
+
+.right-block__item-composition {
+	margin-bottom: 60px;
+}
+
+.rhomb-list__title {
+
+	font-size:24px;
+	line-height:30px;
+	margin:0;
+	padding:0;
+	margin-bottom:25px;
+}
+
+.rhomb-list{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.rhomb-list__item {
+	position:relative;
+	font-size:14px;
+	line-height:24px;
+	margin:0;
+	padding:0;
+	margin-left:20px;
+	
+}
+
+
+.rhomb-list__item:last-child{
+    margin-bottom:0;
+
+}
+
+
+.rhomb-list__item:before {
+	content:"";
+	position:absolute;
+	bottom:0;
+	left:-4.5%;
+	top:35%;
+	margin-left:-3px;
+	display:block;
+	width:6px;
+	height:6px;
+	background-color:#000000;
+	transform:rotate(45deg);
+}
+
+     
