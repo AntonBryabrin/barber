@@ -668,11 +668,13 @@ h2 {
 
 .page-header__main-title {          /*ITEM.HTML*/
 	margin-top:-10px;
-	margin-bottom:15px;
-	outline:1px solid black;
+	margin-bottom:25px;
+	
+	
 }
 
-.main-title {                                
+.main-title {
+	                           
     margin:0;
 	padding:0;
 	
@@ -834,4 +836,30 @@ h2 {
 	transform:rotate(45deg);
 }
 
+
+.filter  {
+	width:200px;
+}
      
+.shop-page__catalog 	{                                       /*<SHOP.HTML>*/    
+	outline:1px solid black;
+	width:700px;
+	font-size:0;
+}	
+
+
+.catalog__item {
+	width:220px;
+	min-height:287px;
+	display:inline-block;
+	outline:1px solid black;
+	font-size:14px;
+	line-height:24px;
+	vertical-align:top;
+	margin-right:20px;
+	margin-bottom:20px;
+}								
+
+.catalog__item:nth-child(3n) {
+	margin-right:0;
+}
