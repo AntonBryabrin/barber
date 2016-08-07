@@ -490,6 +490,7 @@ h2 {
 	font-size:14px;
 	line-height:24px;
 	display:inline-block;
+	
 }
 
 
@@ -504,9 +505,9 @@ h2 {
 	content:"";
 	position:absolute;
 	bottom:0;
-	left:77.3%;
+	right:17px;
 	top:35%;
-	margin-left:-3px;
+	
 	display:block;
 	width:6px;
 	height:6px;
@@ -643,10 +644,6 @@ h2 {
 	width:900px;
 }	
 
-
-
-
-
 .about-us .about-us-text {
   padding:0;
   margin:0;
@@ -666,4 +663,85 @@ h2 {
 	margin-bottom:30px;
 	font-size:24px;
 	line-height:30px;
+}
+
+
+
+.item-title {                                  /*ITEM.HTML*/
+    margin:0;
+	padding:0;
+	margin-top:-10px;
+	margin-bottom:15px;
+}     
+
+.item-content-left {
+	float:left;
+	outline:1px solid black;
+	width:460px;
+	padding:0;
+	margin:0;
+}                                  
+
+.item-content-right {
+	float:right;
+	outline:1px solid black;
+	width:390px;
+}
+                             
+
+.picture-block-big {
+	outline:1px solid black;
+	padding: 0;
+	margin:0;
+	background:red;
+	width:460px;
+	height:500px;
+	margin-bottom:20px;
+	margin-right:90px;
+
+}
+
+
+.picture-block-preview{
+	font-size:0;
+}
+
+.content-photos-preview{
+	margin-right:20px;
+}
+
+.content-photos-preview:nth-child(3n){
+	margin-right:0;
+}
+
+
+.item-sale {                          /*Придумать универсальный класс*/
+	display:inline-block;
+	padding:0;
+	margin:0;
+	
+	background-color:#d6d6d5;
+
+}
+
+
+.item-sale__cost{
+	padding:0;
+	margin:14px 28px;
+	display:inline-block;
+	font-size:14px;
+	line-height:14px;
+
+
+
+}
+
+
+.item-sale__btn {
+	font-size:14px;
+	line-height:14px;
+	margin:0;
+	display:inline-block;
+	vertical-align: middle;
+	padding:15px 18px;
 }
